@@ -17,18 +17,13 @@ How to pronounce hex numbers and not trip over your own tongue
   1: read the number from left to right, two bytes at a time ("blockwise")
   2: while blocks remain, consume a block and...:
        if only the leading nibble is set:
-         call out the block using traditional english comma notation
-         (ex: `0x8000` → "ate-thousand", `0xE000` → "e-thousand", etc.)
+         call out the block using traditional english comma notation (ex: `0x8000` → "ate-thousand", `0xE000` → "e-thousand", etc.)
        else if all nibbles are the same:
-         call out "X block", where X is the repeated nibble
-         (ex: 0xFFFF → "f-block", 0x2222 ← "two-block", etc.)
+         call out "X block", where X is the repeated nibble (ex: 0xFFFF → "f-block", 0x2222 ← "two-block", etc.)
        else:
-         call out both bytes in the block of nibbles
-         (ex: 0xCAFE → "c'ity-alfa", "ef'ity-ecko")
-         OR
-         (ex: 0xCAFE → "charlie-alfa", "foxtrot-ecko")
-         OR
-         (ex: 0xDE45 → "delta-ecko", "fourty-five"
+         call out both bytes in the block of nibbles (ex: 0xCAFE → "c'ity-alfa", "ef'ity-ecko")
+                                                     (ex: 0xCAFE → "charlie-alfa", "foxtrot-ecko")
+                                                     (ex: 0xDE45 → "delta-ecko", "fourty-five"
 ```
 
 #### Example
