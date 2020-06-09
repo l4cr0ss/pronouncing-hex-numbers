@@ -3,8 +3,8 @@ How to pronounce hex numbers and not trip over your own tongue
 
 #### Motivation
   1: reading hex phonetically is annoying  
-  2: repeating yourself because you failed to make yourself understood sucks
-  3: existing proposals for pronouncing hex are over-engineered, unrealistic, and/or vulgar sounding.
+  2: repeating yourself because you failed to make yourself understood sucks  
+  3: existing proposals for pronouncing hex are over-engineered, unrealistic, and/or vulgar sounding  
 
 #### Goal 
   1: consistent set of rules for dictating hex numbers  
